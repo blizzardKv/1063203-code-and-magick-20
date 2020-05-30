@@ -53,7 +53,6 @@ window.renderStatistics = function (ctx, players, times) {
 
   var maxTime = getMaxElement(times);
 
-
   for (var i = 0; i < players.length; i++) {
     createStatsText(ctx, (Math.floor(times[i])), CLOUD_X + TEXT_WIDTH + (TEXT_WIDTH + BAR_WIDTH) * i, (CLOUD_HEIGHT - GAP_Y - 2 * CLOUD_Y) + (BAR_HEIGHT * times[i] / maxTime));
     createStatsText(ctx, players[i], CLOUD_X + TEXT_WIDTH + (TEXT_WIDTH + BAR_WIDTH) * i, CLOUD_HEIGHT - 0.5 * GAP_Y);
