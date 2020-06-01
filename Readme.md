@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Константин Павлюц](https://up.htmlacademy.ru/javascript/20/user/1063203).
-* Наставник: `Неизвестно`.
+* Наставник: [Мария Наг](https://htmlacademy.ru/profile/id47061).
 
 ---
 
